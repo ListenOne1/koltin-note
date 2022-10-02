@@ -1,18 +1,16 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description the software that you wrote to demonstrate the Kotlin language.}
-
-{Describe your purpose for writing this software.}
-
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+
+This is a command-line listing program in the Koltin language. The program is to help users organize shopping lists or To-Do lists. The purpose of writing this software is because I want to have better time management skills. "Cap Your To-Do List at Three Things Every Day" is a concept I read on the internet. I am trying to simplify the process by writing this program.
+
+ Inside the program, there are four different main functions, display, add, delete and switch. In the display function, it will display the list user currently have. In add and delete function simply add and delete the note you want. The switch function is to switch two different lists to let user easily organize their list. The vision for this Project is to make a mobile listing APP.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-* IntelliJ IDEA (Community Edition)
+* IntelliJ IDEA
 * Koltin 1.7.20
 
 # Useful Websites
@@ -22,5 +20,5 @@
 
 # Future Work
 
-* error check cpmplete
-* export list
+* complete error check function
+* export lists
