@@ -17,8 +17,8 @@
 
 # Useful Websites
 
-* [Koltin Tutorial-Programiz]([http://url.link.goes.here](https://www.programiz.com/kotlin-programming))
-* [Koltin-LinkedList]([http://url.link.goes.here](https://www.cosmiclearn.com/kotlin/linkedlist.php))
+* [Koltin Tutorial-Programiz](https://www.programiz.com/kotlin-programming)
+* [Koltin-LinkedList](https://www.cosmiclearn.com/kotlin/linkedlist.php)
 
 # Future Work
 
