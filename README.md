@@ -4,7 +4,7 @@ This is a command-line listing program in the Koltin language. The program is to
 
  Inside the program, there are four different main functions, display, add, delete and switch. In the display function, it will display the list user currently have. In add and delete function simply add and delete the note you want. The switch function is to switch two different lists to let user easily organize their list. The vision for this Project is to make a mobile listing APP.
 
-[Software Demo Video](https://youtu.be/J4aoxSd2wZQ)
+[Software Demo Video](https://youtu.be/lH2OyJEb55Q)
 
 # Development Environment
 
