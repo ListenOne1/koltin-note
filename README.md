@@ -20,6 +20,3 @@ This is a command-line listing program in the Koltin language. The program is to
 
 * complete error check function
 * export lists
-
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
