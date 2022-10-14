@@ -1,5 +1,8 @@
 // Library for linked list
 import java.util.LinkedList
+
+// input different data type
+
 // This function will display the format of the list
 fun display(i: Int, value: LinkedList<String>) {
     print("  ")
@@ -7,21 +10,27 @@ fun display(i: Int, value: LinkedList<String>) {
     print(". ")
     println(value[i])
 }
+
 // This function will switch two different list
 fun switch(num1: String, num2: String, value: LinkedList<String>): LinkedList<String> {
     // Create a new linked list String
     var newValue = LinkedList<String>();
-    for (i in 0..value.size - 1){
-        if(i == num1.toInt()-1){
-            newValue.addLast(value[num2.toInt()-1])
-        } else if (i == num2.toInt()-1) {
-            newValue.addLast(value[num1.toInt()-1])
-        } else {
-            newValue.addLast(value[i])
+    for (i in 0 until value.size) {
+        when (i) {
+            num1.toInt() - 1 -> {
+                newValue.addLast(value[num2.toInt() - 1])
+            }
+
+            num2.toInt() - 1 -> {
+                newValue.addLast(value[num1.toInt() - 1])
+            }
+
+            else -> {
+                newValue.addLast(value[i])
+            }
         }
     }
-    var value = newValue
-    return value
+    return newValue
 }
 
 fun main(args: Array<String>) {
@@ -44,7 +53,7 @@ fun main(args: Array<String>) {
         if (num == "1") { // this will display the note
             println()
             println("Display: ")
-            for (i in 0..value.size-1)
+            for (i in 0 until value.size)
             {
                 display(i,value)
             }
@@ -59,11 +68,11 @@ fun main(args: Array<String>) {
         } else if (num == "3") { // delete note
             var count = 0
             println("Select the note you want do delete")
-            for (i in 0..value.size - 1) {
+            for (i in 0 until value.size) {
                 display(i, value)
                 count = i + 2
             }
-            println("  " + count + ". All") // delete all
+            println("  $count. All") // delete all
             print("Input(name or number): ")
             val input = readLine()!!
 
@@ -84,7 +93,7 @@ fun main(args: Array<String>) {
             }
             println()
         } else if (num == "4") {
-            for (i in 0..value.size-1)
+            for (i in 0 until value.size)
             {
                 display(i,value)
             }
